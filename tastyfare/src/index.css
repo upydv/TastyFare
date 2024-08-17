@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Crousels {
+  max-width: 100%; /* Ensures carousel is responsive */
+  max-height: 400px; /* Set the maximum height for the entire carousel */
+  overflow: hidden;
+}
+
+.Crousels .carousel-item img {
+  height: 400px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensures the images cover the area without distortion */
+}
+
+
