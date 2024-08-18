@@ -106,8 +106,12 @@ const Home = () => {
                     foodItem.length > 0
                       ? foodItem.filter((item) => (item.CategoryName === data.CategoryName)&&(item.name.toLowerCase().includes(search.toLowerCase())))
                         .map(filteredItem => (
-                          <div key={filteredItem._id} className='col-12 col-md-6 col-lg-3 mb-4'>
-                            <Cards foodName={filteredItem.name} options={filteredItem.options[0]} imgSrc={filteredItem.img} />
+                          <div key={filteredItem._id} className='col-12 col-md-6 col-lg-3 d-flex justy-content-center mb-4'>
+                            <Cards 
+                            foodItem={filteredItem}
+                            foodName={filteredItem.name} 
+                            options={filteredItem.options[0]}
+                             imgSrc={filteredItem.img} />
                           </div>
                         ))
                       : <div>No items available</div>
