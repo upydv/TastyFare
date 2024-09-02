@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TastyFare/static/css/main.2d004641.css",
+    "main.js": "/TastyFare/static/js/main.7c213061.js",
+    "index.html": "/TastyFare/index.html",
+    "main.2d004641.css.map": "/TastyFare/static/css/main.2d004641.css.map",
+    "main.7c213061.js.map": "/TastyFare/static/js/main.7c213061.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d004641.css",
+    "static/js/main.7c213061.js"
+  ]
+}
